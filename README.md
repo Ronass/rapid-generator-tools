@@ -1,5 +1,6 @@
 # rapid-generator-tools
 半自动化代码生成，根据需要更改模板配置
+注意：本项目属于rapid-generator项目已生成项目，生成源码见rapid-generator
 
 1.使用说明
 	* generator.xml 中配置项目均已经说明，请具体根据需求配置 *
