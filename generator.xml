@@ -20,7 +20,7 @@
 	<entry key="outRoot">./build_package</entry>
 
 	<!-- 需要移除的表名前缀,使用逗号进行分隔多个前缀,示例值: T_AR,T_BD,T_CD,T_PD,T_CL,T_IP,T_LO,T_RI,T_EV -->
-	<entry key="tableRemovePrefixes">u_</entry>
+	<entry key="tableRemovePrefixes">a_</entry>
 
 	<!-- 需要移除的列名前缀,逗号分隔,示例: S_,B_,I_,DT_,TS_,M_,F_,PK_I_N,PK_I_S -->
 	<entry key="rowRemovePrefixes"></entry>
@@ -45,7 +45,7 @@
 
 		
 	<!-- Mysql连接,useInformationSchema 取出表名注释 -->
-	<entry key="jdbc.url">jdbc:mysql://localhost:3306/assert?useUnicode=true&amp;characterEncoding=utf8&amp;useInformationSchema=true</entry>
+	<entry key="jdbc.url">jdbc:mysql://192.168.1.100:3306/goteam_test?useUnicode=true&amp;characterEncoding=utf8&amp;useInformationSchema=true</entry>
 	<entry key="jdbc.driver">com.mysql.jdbc.Driver</entry>
 	<entry key="jdbc.username">root</entry>
 	<entry key="jdbc.password">123456</entry>
