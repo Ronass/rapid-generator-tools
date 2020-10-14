@@ -11,12 +11,12 @@ package ${basepackage}.${subpackage}.model;
  * @author rapid
  */
 
-public class ${className}Field {
+public interface ${className}Field {
 
 	<#list table.columns as column>
 	/**
 	 * ${column.columnAlias}
 	 */
-	private static final String ${column.columnNameLower}  = "${column.sqlName}";
+	String ${column.constantName}  = "${column.sqlName}";
 	</#list>
 }

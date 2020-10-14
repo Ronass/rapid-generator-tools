@@ -4,7 +4,6 @@
 <#assign classNameLower = className?uncap_first> 
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.io.Serializable;
 import java.util.Date;
@@ -34,10 +33,8 @@ import java.util.Date;
  * @version 1.0
  * @author rapid
  */
- 
 
 @TableName(value = "${table.sqlName}")
-@NoArgsConstructor
 @Getter
 @Setter
 public class ${className} implements Serializable {

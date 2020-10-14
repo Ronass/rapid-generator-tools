@@ -9,7 +9,7 @@ package ${basepackage}.${subpackage}.dao.mysql;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
- * ${className}Mapper
+ * ${table.tableAlias}Mapper
  * @author rapid
  * @date <#if now??>- ${now?string('yyyy')}</#if>
  */
